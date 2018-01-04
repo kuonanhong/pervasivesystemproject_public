@@ -1,7 +1,5 @@
-﻿Pervasive Systems Project
-============
-
-##BigEar 2.0
+﻿Pervasive Systems Project - Big Ear 2.0
+============ 
 
 The repository contains the code about the system developed for the pervasive systems course (Politecnico di Milano) 
 It includes the code running on Raspberry pi, the RESTful server and a simple web application.
