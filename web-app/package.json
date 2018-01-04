@@ -1,0 +1,47 @@
+{
+  "name": "ko-example",
+  "version": "1.0.0",
+  "description": "A basic Knockout.js example",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "postinstall": "npm run build",
+    "start": "pm2 start --name=ko-example index.js",
+    "poststart": "node -e \"require('open')('http://localhost:3000')\"",
+    "stop": "pm2 stop ko-example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/AWT/ko-example.git"
+  },
+  "author": "Carlo Bernaschina",
+  "license": "MIT",
+  "devDependencies": {
+    "open": "0.0.5",
+    "pm2": "^1.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "bootstrap": "^3.3.6",
+    "browserify": "^13.0.0",
+    "exposify": "^0.5.0",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-extract-sourcemap": "^0.1.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "jquery": "2.2.4",
+    "knockout": "^3.4.0",
+    "ko-component-router": "^4.4.4",
+    "merge": "^1.2.0",
+    "merge-stream": "^1.0.0",
+    "stringify": "^5.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
