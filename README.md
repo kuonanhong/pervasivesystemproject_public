@@ -1,7 +1,7 @@
 ﻿Pervasive Systems Project - Big Ear 2.0
 ============ 
 
-The repository contains the code about the system developed for the pervasive systems course (Politecnico di Milano) 
+The repository contains the code about the system developed for the pervasive systems course (Politecnico di Milano). 
 It includes the code running on Raspberry pi, the RESTful server and a simple web application.
 
 ### Usage
@@ -23,7 +23,7 @@ pi@raspberrypi:~ $ source ~/env/bin/activate
 
     
 ### Code Structure
-The code uses gstreamer-like [elements](code/voice_engine/element.py) which can be linked together as an audio pipeline.
+The code uses gstreamer-like [`elements`](code/voice_engine/element.py) which can be linked together as an audio pipeline.
 
 The topology is:
 ```
