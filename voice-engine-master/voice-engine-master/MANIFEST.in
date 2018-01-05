@@ -1,6 +1,0 @@
-
-recursive-include voice_engine *
-recursive-include tests *
-recursive-exclude * __pycache__
-recursive-exclude * *.py[co]
-

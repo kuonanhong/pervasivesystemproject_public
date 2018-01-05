@@ -20,6 +20,7 @@ from voice_engine.kws import KWS
 from voice_engine.doa_respeaker_4mic_array import DOA
 from pixels import pixels
 
+#compute energy threshold for Activity detection
 def compute_energy_threshold(channels = 4, chunk_size = 1024, sample_rate = 16000, sample_width = 2, duration = 3):
     p = pyaudio.PyAudio()
     for i in range(p.get_device_count()):

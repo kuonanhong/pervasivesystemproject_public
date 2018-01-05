@@ -20,6 +20,10 @@ pi@raspberrypi:~ $ source ~/env/bin/activate
 + Web app
 	+ Read the [`README`](web-app/README.md) inside the [`web-app`](web-app/) folder
 	+ Execute the web application while the REST server is running 
+	
++ Localization v2
+	+ Inside the [`locazion-v2`](location-v2/) folder
+	+ Jupyter notebook [`source_localization.ipynb`](location-v2/source_localization.ipynb) where localization is performed
 
     
 ### Code Structure
